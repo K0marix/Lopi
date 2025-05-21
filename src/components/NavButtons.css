@@ -3,17 +3,19 @@
   gap: 20px;
 }
 
-.nav-buttons button {
+/* Стили для ссылок (Link), чтобы выглядели как кнопки */
+.nav-buttons a {
   padding: 12px 24px;
-  border: none;
-  border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
   color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
   font-size: 16px;
+  text-align: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.nav-buttons button:hover {
+.nav-buttons a:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }

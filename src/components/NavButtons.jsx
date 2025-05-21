@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavButtons.css';
 
 function NavButtons() {
   return (
     <div className="nav-buttons">
-      <button>Обо мне</button>
-      <button>Опыт работы</button>
-      <button>Контакты</button>
+      <Link to="/">Главная</Link>
+      <Link to="/about">О нас</Link>
+      <Link to="/contact">Контакты</Link>
     </div>
   );
 }

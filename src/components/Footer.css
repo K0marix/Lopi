@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
-  padding: 55px 0;
-  background: linear-gradient(to right, #007BFF, #6A1B9A); /* такой же градиент, как в header */
+  padding: 50px ;
+  background: linear-gradient(to right, #007BFF, #6A1B9A);
   color: white;
   text-align: center;
   font-size: 18px;
